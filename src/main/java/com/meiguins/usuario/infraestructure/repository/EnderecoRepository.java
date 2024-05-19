@@ -1,4 +1,7 @@
 package com.meiguins.usuario.infraestructure.repository;
 
-public interface EnderecoRepository {
+import com.meiguins.usuario.infraestructure.entity.EnderecoEntity;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface EnderecoRepository extends MongoRepository<EnderecoEntity, String> {
 }
