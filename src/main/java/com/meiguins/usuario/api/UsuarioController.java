@@ -1,7 +1,11 @@
 package com.meiguins.usuario.api;
 
 
+import com.meiguins.usuario.api.request.UsuarioRequestDTO;
+import com.meiguins.usuario.api.response.UsuarioResponseDTO;
+import com.meiguins.usuario.business.UsuarioService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
